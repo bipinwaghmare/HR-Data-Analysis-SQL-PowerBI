@@ -1,122 +1,126 @@
-# HR-Data-Analysis-SQL-PowerBI
-## HR Data Analysis and Visualization
+# 📊 HR-Data-Analysis-SQL-PowerBI  
 
-This project focuses on analyzing HR data using SQL for data cleaning and Power BI for visualization. The project explores employee demographics, work preferences, and departmental distributions, providing actionable insights for workforce management.
+## 🏢 HR Data Analysis and Visualization  
 
-### Overview
+This project focuses on **analyzing HR data** using **SQL** for **data cleaning** and **Power BI** for **visualization**. It explores **employee demographics, work preferences, and departmental distributions**, providing **actionable insights** for **workforce management**.  
 
-This repository includes:
+---
 
-Data - HR Data with over 22000 rows from the year 2000 to 2020.
+## 📌 Overview  
 
-SQL Scripts: Used for cleaning and transforming raw HR data.
+This repository includes:  
 
-Power BI Dashboard: Provides visual insights into employee data.
+📂 **Data** - HR Data with **over 22,000 rows** from **2000 to 2020**.  
+🛠 **SQL Scripts** - Used for **cleaning and transforming raw HR data**.  
+📊 **Power BI Dashboard** - Provides **visual insights into employee data**.  
 
-### Key Insights
+---
 
-#### Demographics:
+## 🔍 Key Insights  
 
-- **Total Employees:** 17,000.
+### 👥 **Demographics:**  
 
-- **Gender Distribution:** 8.9k male employees and 8.1k female employees.
+- 🏢 **Total Employees:** **17,000**.  
+- 👨‍💼 **Gender Distribution:** **8.9k male** employees and **8.1k female** employees.  
+- 🌍 **Race Distribution:** Majority of employees are **White**.  
 
-- **Race Distribution:** Majority of employees are White.
+### 💼 **Work Preferences:**  
 
-#### Work Preferences:
+- 🏡 **Remote Workers:** **Approximately 25.03%** of employees work remotely.  
 
-- **Remote Workers:** Approximately 25.03% of employees work remotely.
+### 📈 **Trends:**  
 
-#### Trends:
+- 📊 **Steady increase** in **employee count** since **2005**.  
 
-Steady increase in employee count since 2005.
+### 🎂 **Age Distribution:**  
 
-#### Age Distribution:
+- 👶 Employees aged **between 25 and 54 years** form the majority, with an **almost equal distribution**.  
 
-Employees aged between 25 and 54 years form the majority, with an almost equal distribution.
+### 🏢 **Department-wise Gender Distribution:**  
 
-#### Department-wise Gender Distribution:
+- 🏗 **Engineering department** has the **highest number of employees**, with a **notable male dominance**.  
 
-Engineering department has the highest number of employees, with a notable male dominance.
+---
 
-### Files in the Repository
+## 📁 Files in the Repository  
 
-#### SQL Scripts:
+### 🗄 **SQL Scripts:**  
 
-- hr_data_cleaning.sql: SQL queries for:
+📜 **hr_data_cleaning.sql** - SQL queries for:  
+- 📆 **Standardizing date formats** (birthdate, hire_date, termdate).  
+- 🔄 **Modifying column types** and **updating null or invalid values**.  
 
-- Standardizing date formats (birthdate, hire_date, termdate).
+### 📊 **Power BI File:**  
 
-- Modifying column types and updating null or invalid values.
+📌 **HR data visualization.pbix** - Visualizations based on cleaned data, including:  
+✅ **Gender distribution**.  
+✅ **Work preferences** (remote vs. onsite).  
+✅ **Trends in employee hiring**.  
+✅ **Age and race distributions**.  
+✅ **Departmental breakdowns by gender**.  
 
-#### Power BI File:
+---
 
-- **HR data visualization.pbix:** Visualizations based on cleaned data, including:
+## ⚙️ Requirements  
 
-Gender distribution.
+### 🛠 **Tools Used:**  
 
-Work preferences (remote vs. onsite).
+🔢 **SQL Database:** MySQL or any compatible database for executing the cleaning script.  
+📊 **Power BI Desktop:** For creating and viewing the dashboards.  
 
-Trends in employee hiring.
+---
 
-Age and race distributions.
+## 📂 Data Source  
 
-Departmental breakdowns by gender.
+📌 **URL**: [HR Dataset](https://github.com/Irene-arch/HR-Dashboard-MySQL-PowerBI/blob/main/Human%20Resources.csv)  
 
-### Requirements
+---
 
-#### Tools Used:
+## 🚀 How to Use  
 
-- **SQL Database:** MySQL or any compatible database for executing the cleaning script.
+### 1️⃣ **SQL Cleaning:**  
 
-- **Power BI Desktop:** For creating and viewing the dashboards.
+1. 📥 **Import the dataset** into your database.  
+2. 🏗 **Run the hr_data_cleaning.sql script** to clean and preprocess the data.  
 
-### Data Source:
+### 2️⃣ **Power BI Visualization:**  
 
-URL : https://github.com/Irene-arch/HR-Dashboard-MySQL-PowerBI/blob/main/Human%20Resources.csv
+1. 📂 **Open the hr_dashboard.pbix file** in Power BI Desktop.  
+2. 🔗 **Connect it to your SQL database** to visualize the data.  
 
-How to Use
+---
 
-### SQL Cleaning:
+## 📊 Insights Visualization  
 
-Import the dataset into your database.
+📊 **Gender Distribution:** Bar chart depicting **male and female employees**.  
+🏡 **Remote vs. Onsite Work:** Bar chart showing **work preferences**.  
+📈 **Hiring Trends:** Line graph of **employee growth since 2005**.  
+🎂 **Age Distribution:** Histogram of **age groups from 25 to 54**.  
+🏢 **Department-wise Distribution:** Stacked bar chart of **department composition by gender**.  
 
-Run the hr_data_cleaning.sql script to clean and preprocess the data.
+---
 
-### Power BI Visualization:
+## 🔮 Future Scope  
 
-Open the hr_dashboard.pbix file in Power BI Desktop.
+📌 **Incorporate advanced analytics** using **Python or R**.  
+📌 **Expand visualizations** with **Tableau or other BI tools**.  
+📌 **Perform predictive analysis** on **hiring trends**.  
 
-Connect it to your SQL database to visualize the data.
+---
 
-### Insights Visualization
+## 👨‍💻 Author  
 
-Gender Distribution: Bar chart depicting male and female employees.
+**Bipin Waghmare**  
+🔗 [LinkedIn](#) | 🐙 [GitHub](#)  
 
-Remote vs. Onsite Work: Bar chart showing work preferences.
+---
 
-Hiring Trends: Line graph of employee growth since 2005.
+## 📜 License  
 
-Age Distribution: Histogram of age groups from 25 to 54.
+📌 This project is licensed under the **MIT License**. See the **LICENSE file** for details.  
 
-Department-wise Distribution: Stacked bar chart of department composition by gender.
+---
 
-### Future Scope
+## 🙌 Acknowledgments  
 
-Incorporate advanced analytics using Python or R.
-
-Expand visualizations with Tableau or other BI tools.
-
-Perform predictive analysis on hiring trends.
-
-### Author
-
-Bipin WaghmareLinkedIn | GitHub
-
-### License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-### Acknowledgments
-
-Special thanks to Her Data Project YouTube Channel.
+Special thanks to **Her Data Project** 🎥 **YouTube Channel**.  
