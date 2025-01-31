@@ -121,6 +121,11 @@ This repository includes:
 
 ---
 
+## Dashboard Look
+![BI_page1](https://github.com/user-attachments/assets/05a445a9-9bbd-4237-9719-76e4198065d7)
+![BI_page2](https://github.com/user-attachments/assets/aebbd187-dc89-432b-8f3f-3f38d39064ec)
+
+
 ## 🙌 Acknowledgments  
 
 Special thanks to **Her Data Project** 🎥 **YouTube Channel**.  
